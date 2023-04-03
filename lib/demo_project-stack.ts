@@ -39,7 +39,7 @@ export class DemoProjectStack extends Stack {
        handler:demoFunction
      })
 
-     api.root.addMethod("POST");
+     api.root.addMethod("GET");
 
  
   }
